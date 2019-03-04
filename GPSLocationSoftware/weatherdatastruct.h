@@ -9,9 +9,9 @@ typedef struct WeatherDataStruct{
     int16_t lat;    //latitude
 
     //weather
-    uint8_t id; //Weather condition id
-    QString main;   //group of weather parameters (Rain, Snow, Extreme etc.)
-    QString description;    //Weather condition within the group
+    uint8_t id; //weather condition id- (uzywamy pierwotnych, albo definiujemy swoje)
+    QString main;   //group of weather parameters (rain, snow, extreme etc.)
+    QString description;    //weather condition within the group- exact description
     QString icon;   //icon- if needed
 
     //QString  base;
