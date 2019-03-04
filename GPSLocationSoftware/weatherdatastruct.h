@@ -14,7 +14,7 @@ typedef struct WeatherDataStruct{
     QString description;    //weather condition within the group- exact description
     QString icon;   //icon- if needed
 
-    //QString  base;
+    QString  base;
 
     //main
     int8_t temp;
