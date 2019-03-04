@@ -26,8 +26,8 @@ typedef struct WeatherDataStruct{
     int8_t visibility;  //visibility, meter
 
     //wind
-    uint8_t speed;
-    uint8_t deg;
+    uint8_t speed;  //wind speed
+    uint8_t deg;    //wind direction (metheorogical degrees)
 
     //clouds
     uint8_t all;    //cloudiness
